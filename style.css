@@ -1,0 +1,254 @@
+html, body, div, span, form, header, menu, nav, section { 
+    /*
+    * reset styles
+    */
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+.header {
+    height: 660px;
+    width: 1280px;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #00e3ff;
+    background-image: url(images/unsplash.png);
+    background-blend-mode: screen;
+}
+
+.logo, .logo-form {
+    width: 50%;
+    height: 660px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.logo_image {
+    width: 276px;
+    height: 109px;
+    background-image: url(images/logo.png);
+    background-repeat: no-repeat;
+    position: relative;
+    left: 247px;
+    top: 166px;
+}
+
+.logo_description{
+    width: 331px;
+    height: 88px;
+    font-size: 36px;
+    letter-spacing: 4px;
+    line-height: 54px;
+    color: rgb(51,51,51);
+    font-family: "Catamaran";
+    text-align: center;
+    position: relative;
+    left: 219px;
+    top: 250px;
+}
+.register-form {
+    width: 377px;
+    min-height: 422px;
+    position: relative;
+    left: 107px;
+    top: 120px;
+    box-shadow: -0.419px 5.985px 6px rgba(44,43,45,0.7);
+    background-color: #2e4445
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+li a {
+    display: block;
+    height: 58px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 58px;
+    color: rgb(255,255,255);
+    font-family: "Catamaran";
+    text-align: center;
+    text-decoration: none;
+}
+
+li a.singIn{
+    background-color: #ffffff;
+    color: #333333;
+}
+
+.register-form-cells {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.inputFields {
+    width: 347px;
+    height: 40px;
+    background-color: #ffffff;
+    margin-top: 14px;
+    margin-bottom: 12px;
+}
+.name{
+    margin-top: 18px;
+}
+
+.celebrity {
+    width: 347px;
+    height: 79px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    color: rgb(255,255,255);
+    font-family: "Catamaran";
+    font-weight: 300;
+}
+
+.registerNow {
+    margin-bottom: 30px;
+    background-color: #ff6600;
+    width: 347px;
+    font-size: 30px;
+    letter-spacing: 3px;
+    line-height: 36px;
+    color: rgb(51,51,51);
+    font-family: "Catamaran";
+    font-weight: 800;
+    text-align: center;
+    border: none;
+    outline: 0;
+    outline-offset: 0;
+}
+
+.main {
+    width: 1280px;
+    height: 556px;
+}
+.elinguage, .elinguage_description, .elinguage_work {
+    width: 1280px;
+    color:  #00a8b2;
+    font-family: "Catamaran";
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 36px;
+    font-weight: 800;
+    font-size: 30px;
+}
+.elinguage_text {
+   position: relative;
+   top: 74px;
+}
+
+.elinguage_description {
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    font-weight: 300;
+    width: 760px;
+    text-align: left;
+    color: #3a3a3a;
+}
+
+.elinguage_description_text {
+   position: relative;
+   top: 124px;
+   left: 247px;
+}
+
+.elinguage_work_text, .elinguage_work_proofs {
+    position: relative;
+    top: 218px;
+}
+
+.elinguage_work_proofs {
+    margin-top: 54px;
+    height: 270px;
+    width: 1280px;
+}
+
+.img-responsive {
+    position: relative;
+    float: left;
+    text-align: center;
+}
+
+.img-responsive img {
+    width: 75px;
+    height: 75px;
+}
+
+.plus {
+    margin-left: 117px;
+    width: 144px;
+}
+
+.translation {
+    margin-left: 132px;
+    width: 196px;
+}
+
+.group2 {
+    margin-left: 76px;
+    width: 250px; 
+}
+
+.idea {
+    margin-left: 81px;
+    width: 208px;
+}
+
+.caption p {
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    color: rgb(0,168,178);
+    font-weight: 800;
+    text-align: center;
+}
+
+.caption p span {
+    color: #3a3a3a;
+    font-weight: 400;
+}
+
+.footer {
+    width: 1280px;
+    height: 120px;
+    background-color: #333333;
+    margin-top: 72px;
+}
+
+.footer_logo {
+    position: relative;
+    top: 28px;
+    left: 110px;
+}
+
+.footer_email{
+    display: inline-block;
+    width: 190px;
+    height: 52px;
+    position: relative;
+    top: 24px;
+    left: 836px;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 36px;
+    color: rgb(255,255,255);
+    font-family: "Catamaran";
+}
+
